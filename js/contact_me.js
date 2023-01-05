@@ -30,11 +30,8 @@ $(function() {
                 success: function() {
                     // Success message
                     $('#success').html("<div>");
-                    $('#success')
-                        .append("<strong>Your message has been sent. </strong>");
-                    $('#success')
-                        .append('</div>');
-
+                    $('#success').append("<strong>Your message has been sent. </strong>");
+                    $('#success').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");
                 },

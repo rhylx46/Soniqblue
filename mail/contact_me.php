@@ -15,7 +15,7 @@ $email = $_POST['email'];
 $message = $_POST['message'];
 	
 
-$to = 'leicgm@yahoo.com';
+$to = 'yuxuan@generatordesign.com';
 $email_subject = "Information from:  $fname $lname ";
 $email_body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $fname $lname\n\nEmail: $email\n\nMessage:\n$message";
 $headers = "From: $email\n";
